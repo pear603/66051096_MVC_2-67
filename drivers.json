@@ -1,0 +1,302 @@
+[
+  {
+    "driverId": "000000001",
+    "driverType": "general",
+    "birthDate": "17/09/1950",
+    "licenseStatus": "normal"
+  },
+  {
+    "driverId": "000000002",
+    "driverType": "general",
+    "birthDate": "04/04/2007",
+    "licenseStatus": "expired"
+  },
+  {
+    "driverId": "000000003",
+    "driverType": "general",
+    "birthDate": "10/05/2002",
+    "licenseStatus": "suspended"
+  },
+  {
+    "driverId": "000000004",
+    "driverType": "general",
+    "birthDate": "19/06/1975",
+    "licenseStatus": "normal"
+  },
+  {
+    "driverId": "000000005",
+    "driverType": "general",
+    "birthDate": "24/06/1955",
+    "licenseStatus": "expired"
+  },
+  {
+    "driverId": "000000006",
+    "driverType": "general",
+    "birthDate": "25/12/1969",
+    "licenseStatus": "suspended"
+  },
+  {
+    "driverId": "000000007",
+    "driverType": "general",
+    "birthDate": "21/10/1948",
+    "licenseStatus": "normal"
+  },
+  {
+    "driverId": "000000008",
+    "driverType": "general",
+    "birthDate": "27/02/1980",
+    "licenseStatus": "expired"
+  },
+  {
+    "driverId": "000000009",
+    "driverType": "general",
+    "birthDate": "31/03/1985",
+    "licenseStatus": "suspended"
+  },
+  {
+    "driverId": "000000010",
+    "driverType": "general",
+    "birthDate": "28/09/1945",
+    "licenseStatus": "normal"
+  },
+  {
+    "driverId": "000000011",
+    "driverType": "novice",
+    "birthDate": "29/08/1965",
+    "licenseStatus": "normal"
+  },
+  {
+    "driverId": "000000012",
+    "driverType": "novice",
+    "birthDate": "06/04/2006",
+    "licenseStatus": "expired"
+  },
+  {
+    "driverId": "000000013",
+    "driverType": "novice",
+    "birthDate": "07/09/1995",
+    "licenseStatus": "suspended"
+  },
+  {
+    "driverId": "000000014",
+    "driverType": "novice",
+    "birthDate": "03/07/2004",
+    "licenseStatus": "normal"
+  },
+  {
+    "driverId": "000000015",
+    "driverType": "novice",
+    "birthDate": "13/08/2010",
+    "licenseStatus": "expired"
+  },
+  {
+    "driverId": "000000016",
+    "driverType": "novice",
+    "birthDate": "27/01/1998",
+    "licenseStatus": "suspended"
+  },
+  {
+    "driverId": "000000017",
+    "driverType": "novice",
+    "birthDate": "04/07/1949",
+    "licenseStatus": "normal"
+  },
+  {
+    "driverId": "000000018",
+    "driverType": "novice",
+    "birthDate": "13/11/1976",
+    "licenseStatus": "expired"
+  },
+  {
+    "driverId": "000000019",
+    "driverType": "novice",
+    "birthDate": "30/08/1992",
+    "licenseStatus": "suspended"
+  },
+  {
+    "driverId": "000000020",
+    "driverType": "novice",
+    "birthDate": "26/12/1997",
+    "licenseStatus": "normal"
+  },
+  {
+    "driverId": "000000021",
+    "driverType": "public",
+    "birthDate": "21/06/1948",
+    "licenseStatus": "normal"
+  },
+  {
+    "driverId": "000000022",
+    "driverType": "public",
+    "birthDate": "21/06/1980",
+    "licenseStatus": "expired"
+  },
+  {
+    "driverId": "000000023",
+    "driverType": "public",
+    "birthDate": "18/04/1966",
+    "licenseStatus": "suspended"
+  },
+  {
+    "driverId": "000000024",
+    "driverType": "public",
+    "birthDate": "13/09/1997",
+    "licenseStatus": "normal"
+  },
+  {
+    "driverId": "000000025",
+    "driverType": "public",
+    "birthDate": "19/11/1958",
+    "licenseStatus": "expired"
+  },
+  {
+    "driverId": "000000026",
+    "driverType": "public",
+    "birthDate": "18/11/2009",
+    "licenseStatus": "suspended"
+  },
+  {
+    "driverId": "000000027",
+    "driverType": "public",
+    "birthDate": "25/03/2001",
+    "licenseStatus": "normal"
+  },
+  {
+    "driverId": "000000028",
+    "driverType": "public",
+    "birthDate": "13/10/1982",
+    "licenseStatus": "expired"
+  },
+  {
+    "driverId": "000000029",
+    "driverType": "public",
+    "birthDate": "22/05/1982",
+    "licenseStatus": "suspended"
+  },
+  {
+    "driverId": "000000030",
+    "driverType": "public",
+    "birthDate": "04/04/1986",
+    "licenseStatus": "normal"
+  },
+  {
+    "driverId": "000000031",
+    "driverType": "general",
+    "birthDate": "06/03/1967",
+    "licenseStatus": "expired"
+  },
+  {
+    "driverId": "000000032",
+    "driverType": "novice",
+    "birthDate": "06/01/1973",
+    "licenseStatus": "suspended"
+  },
+  {
+    "driverId": "000000033",
+    "driverType": "public",
+    "birthDate": "22/03/1983",
+    "licenseStatus": "normal"
+  },
+  {
+    "driverId": "000000034",
+    "driverType": "general",
+    "birthDate": "18/07/1954",
+    "licenseStatus": "expired"
+  },
+  {
+    "driverId": "000000035",
+    "driverType": "novice",
+    "birthDate": "22/04/1960",
+    "licenseStatus": "suspended"
+  },
+  {
+    "driverId": "000000036",
+    "driverType": "public",
+    "birthDate": "08/06/1983",
+    "licenseStatus": "normal"
+  },
+  {
+    "driverId": "000000037",
+    "driverType": "general",
+    "birthDate": "04/01/1957",
+    "licenseStatus": "expired"
+  },
+  {
+    "driverId": "000000038",
+    "driverType": "novice",
+    "birthDate": "25/12/1953",
+    "licenseStatus": "suspended"
+  },
+  {
+    "driverId": "000000039",
+    "driverType": "public",
+    "birthDate": "02/07/1989",
+    "licenseStatus": "normal"
+  },
+  {
+    "driverId": "000000040",
+    "driverType": "general",
+    "birthDate": "13/04/1948",
+    "licenseStatus": "expired"
+  },
+  {
+    "driverId": "000000041",
+    "driverType": "novice",
+    "birthDate": "11/08/1972",
+    "licenseStatus": "suspended"
+  },
+  {
+    "driverId": "000000042",
+    "driverType": "public",
+    "birthDate": "26/10/1954",
+    "licenseStatus": "normal"
+  },
+  {
+    "driverId": "000000043",
+    "driverType": "general",
+    "birthDate": "30/08/1971",
+    "licenseStatus": "expired"
+  },
+  {
+    "driverId": "000000044",
+    "driverType": "novice",
+    "birthDate": "15/06/1992",
+    "licenseStatus": "suspended"
+  },
+  {
+    "driverId": "000000045",
+    "driverType": "public",
+    "birthDate": "12/01/1946",
+    "licenseStatus": "normal"
+  },
+  {
+    "driverId": "000000046",
+    "driverType": "general",
+    "birthDate": "19/04/1970",
+    "licenseStatus": "expired"
+  },
+  {
+    "driverId": "000000047",
+    "driverType": "novice",
+    "birthDate": "08/02/1951",
+    "licenseStatus": "suspended"
+  },
+  {
+    "driverId": "000000048",
+    "driverType": "public",
+    "birthDate": "01/04/1966",
+    "licenseStatus": "normal"
+  },
+  {
+    "driverId": "000000049",
+    "driverType": "general",
+    "birthDate": "03/08/1954",
+    "licenseStatus": "expired"
+  },
+  {
+    "driverId": "000000050",
+    "driverType": "novice",
+    "birthDate": "05/03/1975",
+    "licenseStatus": "suspended"
+  }
+]

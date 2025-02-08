@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driver Information System</title>
+</head>
+
+<body>
+    <div>
+        <h1>Driver Information System</h1>
+        <label for="driverID">Enter Driver ID:</label>
+        <input type="text" id="driverID" placeholder="9-digit Driver ID">
+        <button onclick="check()" &&>Submit</button>
+        <div id="output"></div>
+    </div>
+
+
+    <script>
+        async function check() {
+            const driverID = document.getElementById("driverID").value.trim();
+            try {
+                const response = await fetch('/drivers.json');
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                const drivers = await response.json();
+
+                const driver = drivers.find(d => d.driverId === driverID);
+                displayMessage(driver);
+                isExpired(driver)
+            } catch (error) {
+                console.error('Error fetching driver data:', error);
+                displayMessage(null);
+            }
+
+        }
+
+
+        function displayMessage(message) {
+            const output = document.getElementById('output');
+            if (message) {
+                output.innerHTML += `
+            <h3>Driver Information</h3>
+            <ul>
+                <li><strong>Driver ID:</strong> ${message.driverId}</li>
+                <li><strong>Driver Type:</strong> ${message.driverType}</li>
+                <li><strong>Birth Date:</strong> ${message.birthDate}</li>
+                <li><strong>License Status:</strong> ${message.licenseStatus}</li>
+                <li><strong>Age:</strong> ${calculateAge(message.birthDate)} years old</li>
+            </ul>
+        `;
+            } else {
+                output.innerHTML = 'Driver ID not found.';
+            }
+            console.log(JSON.stringify(message, null, 2));
+        }
+
+        function calculateAge(birthDate) {
+            const birthDateParts = birthDate.split('/'); // Split the birthdate into day, month, year
+            const birthDay = parseInt(birthDateParts[0], 10);
+            const birthMonth = parseInt(birthDateParts[1], 10) - 1; // Months are 0-indexed in JavaScript (0 = January)
+            const birthYear = parseInt(birthDateParts[2], 10);
+
+            const today = new Date();
+            const birthDateObj = new Date(birthYear, birthMonth, birthDay);
+
+            let age = today.getFullYear() - birthDateObj.getFullYear();
+            const m = today.getMonth() - birthDateObj.getMonth();
+
+            if (m < 0 || (m === 0 && today.getDate() < birthDateObj.getDate())) {
+                age--; // If the birthday hasn't occurred yet this year, subtract one year
+            }
+
+            return age;
+        }
+        function isExpired(driver) {
+            const output = document.getElementById('output');
+            const age = calculateAge(driver.birthDate);
+            if (age > 70) {
+                output.innerHTML += "status is Expired";
+                driver.licenseStatus = 'Expired';
+                displayMessage(driver);
+            } else if (age < 16) {
+                output.innerHTML += "status is suspended";
+                driver.licenseStatus = 'suspended';
+                displayMessage(driver);
+            }
+            else {
+                output.innerHTML += "status is correct";
+                const testButton = document.createElement('button');
+                testButton.textContent = "test";
+                testButton.addEventListener('click', function () {
+                    output.innerHTML += "Complete"
+                    testButton.disabled = true;
+                });
+
+                // Append the button to the output div
+                output.appendChild(testButton);
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>
